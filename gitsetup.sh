@@ -1,13 +1,15 @@
-echo ----- git init -----
+echo ------------- GIT INIT ------------
 git init
-echo ----- git add -----
+echo ------------- GIT ADD -------------
 git add .
-echo Commit message
+echo Enter commit message:
 read message
-echo ----- git commit -----
+echo ------------ GIT COMMIT -----------
 git commit -m "$message"
-echo Enter repo url
+echo Enter repo url:
 read url
-echo ----- git add remote and push -----
+echo ----- GIT ADD REMOTE AND PUSH -----
 git remote add origin $url
 git push origin master
+echo --------------- DONE --------------
+echo -----------------------------------

@@ -1,8 +1,10 @@
-echo ----- git add -----
+echo ------ GIT ADD --------
 git add .
-echo Commit message
+echo Enter commit message:
 read message
-echo ----- git commit -----
+echo ------ GIT COMMIT -----
 git commit -m "$message"
-echo ----- git push -----
+echo ------ GIT PUSH -------
 git push origin master
+echo --------- DONE --------
+echo -----------------------
